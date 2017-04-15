@@ -23,7 +23,7 @@ do
 	rm -f $f$bakup
   fi
   git add $f
-  GIT_AUTHOR_DATE=$1 GIT_COMMITTER_DATE=$1 git commit -m 'precision error rectified'
+  GIT_AUTHOR_DATE=$1 GIT_COMMITTER_DATE=$1 git commit -m 'final commit'
   git push
   # take action on each file. $f store current file name
 done
