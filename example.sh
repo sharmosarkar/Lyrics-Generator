@@ -16,3 +16,4 @@ MODEL_NAME="lstm_regression_model"
 ./sample.py --model_name $MODEL_NAME --vocabulary_file $FILE_NAME.vocab --output_file sample.txt
 
 ^^^()()^^^
+^^^()()^^^
